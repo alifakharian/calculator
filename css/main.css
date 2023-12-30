@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+ .calender {
+  width: 600px;
+  height: 500px;
+  background-color: rgb(5, 5, 5); 
+  margin: 150px auto;
+  border-radius: 15px;
+  position: relative;
+}
+.ans {
+  width: 570px;
+  height: 60px;
+  background-color: rgb(197, 197, 170);
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 60px;
+  font-family: sans-serif;
+  border: solid 3px rgb(141, 103, 8);
+
+}
+.number {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ gap: 50px;
+  padding: 10px;
+  margin-bottom: 2px;
+  width: 400px;
+  height: 400px;
+   /* background-color: lightslategray; */
+  top: 80px;
+  left: 30px;
+  border-radius: 15px;
+  
+}
+.number > div {
+  width: 60px;
+  height: 60px;
+  border-radius: 25%;
+  background-color: rgb(120, 116, 116);
+
+  text-align: center;
+  line-height: 50px;
+  border: solid 3px rgb(141, 103, 8);
+  transition: all 300ms linear;
+}
+.operator > div {
+  width: 57px;
+  height: 57px;
+  margin: 0 auto;
+  background-color:rgb(227, 190, 196);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  border: solid 3px gold;
+  transition: all 300ms linear;
+  
+}
+.operator > div:hover {
+  background-color:rgb(238, 127, 145);
+  
+  
+}
+.number > div:hover {
+  background-color: rgb(226, 209, 209);
+  
+  
+}
+.operator {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80px;
+  height: 400px;
+  /* background-color: rgb(93, 201, 93); */
+  right: 40px;
+  top: 80px;
+  border-radius: 15px;
+}
+
+
+.test{
+  width: 500px;
+  height: 500px;
+  background-color: rgb(176, 127, 127);
+} 
+.btn-clean{
+  background-color: rgba(236, 70, 70, 0.703) !important;
+  color: rgb(176, 169, 169);
+  transition: all 300ms linear;
+ 
+}
+.btn-clean :hover{
+  background-color: red;
+  width: 55px;
+  height: 55px;
+  border-radius: 25%;
+  colo
+  
+}
